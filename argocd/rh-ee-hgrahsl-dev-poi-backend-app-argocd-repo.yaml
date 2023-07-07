@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: rh-ee-hgrahsl-dev-rh-ee-hgrahsl-dev-poi-backend-app-repo
+  namespace: janus-argocd
+  labels:
+    argocd.argoproj.io/secret-type: repository
+stringData:
+  url: https://github.com/hpgrahsl/rh-ee-hgrahsl-dev-backend-gitops

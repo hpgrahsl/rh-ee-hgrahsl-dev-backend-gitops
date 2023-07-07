@@ -1,0 +1,15 @@
+app:
+  name: rh-ee-hgrahsl-dev-poi-backend-app
+  namespace: rh-ee-hgrahsl-dev
+  cluster: .apps.sandbox-m3.1530.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/hpgrahsl/rh-ee-hgrahsl-dev-backend
+  org: hpgrahsl
+  name: rh-ee-hgrahsl-dev-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: rh-ee-hgrahsl-dev/poi-backend-app
+  tag: latest
